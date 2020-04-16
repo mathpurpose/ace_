@@ -118,7 +118,6 @@ document.getElementById('setMonokai1').addEventListener('click',
         enableBasicAutocompletion: true,
         enableSnippets: true,
         wrap: true,
-        //enableEmmet: true,
         enableLiveAutocompletion: true
       });
 
