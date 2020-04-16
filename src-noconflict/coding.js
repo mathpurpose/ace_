@@ -114,12 +114,12 @@ document.getElementById('setMonokai1').addEventListener('click',
       });
 
 
-      eh.setOptions({
+        eh.setOptions({
         enableBasicAutocompletion: true,
         enableSnippets: true,
         wrap: true,
         enableEmmet: true,
-        enableLiveAutocompletion: true,
+        //enableLiveAutocompletion: true,
       });
 
       ec.setOptions({
