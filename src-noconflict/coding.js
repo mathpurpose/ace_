@@ -119,7 +119,7 @@ document.getElementById('setMonokai1').addEventListener('click',
         enableSnippets: true,
         wrap: true,
         enableEmmet: true,
-        //enableLiveAutocompletion: true,
+        enableLiveAutocompletion: true,
       });
 
       ec.setOptions({
