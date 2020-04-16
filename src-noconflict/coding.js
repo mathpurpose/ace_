@@ -117,13 +117,16 @@ document.getElementById('setMonokai1').addEventListener('click',
       eh.setOptions({
         enableBasicAutocompletion: true,
         enableSnippets: true,
-        enableLiveAutocompletion: true
+        wrap: true,
+        enableEmmet: true,
+        //enableLiveAutocompletion: true,
       });
 
       ec.setOptions({
         enableBasicAutocompletion: true,
         enableSnippets: true,
-        enableLiveAutocompletion: true
+        enableLiveAutocompletion: true,
+        wrap: true
       });
 
 
